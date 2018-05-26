@@ -1,0 +1,25 @@
+<!-- Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See full license in root of repo. -->
+<!-- This file shows how to create an empty HTML file to load a function file. -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+    <!-- Office JavaScript API -->
+    <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/beta/hosted/office.debug.js"></script>
+    <meta http-equiv="Expires" content="0" />
+    <title></title>
+    <script src="https://unpkg.com/@microsoft/office-js@1.1.7-adhoc.3/dist/office.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../customfunctions.js"></script>
+    <script type="text/javascript" src="function-file.js"></script>
+</head>
+
+<body>
+  <!-- NOTE: The body is empty on purpose. Since function in function-file.js are
+       invoked via a button, there is no UI to render. -->
+</body>
+
+</html>
